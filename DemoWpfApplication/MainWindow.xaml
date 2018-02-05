@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBlock x:Name="txtName"  Text="This is my test" MouseEnter="TextBlock_MouseEnter" Margin="10"></TextBlock>
+        <Button Height="25" Width="100" Content="Submit" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10 40 10 10"></Button>
     </Grid>
 </Window>
